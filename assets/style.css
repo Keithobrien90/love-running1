@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lato sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color:#3a3a3a;
 }
@@ -189,7 +189,7 @@ hr {
     border-radius:50%;
 
 }
-
+/*event time*/
 #times {
     background: url('css/images/dublin-city.webp');
     background-repeat: no-repeat;
@@ -198,4 +198,21 @@ hr {
     width: 100%;
     overflow:hidden;
 
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding-top: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+
+}
+
+#times h2{
+    color:#fafafa;
 }
