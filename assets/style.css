@@ -187,7 +187,7 @@ hr {
     background: url('css/images/ethos-center-image.jpeg') no-repeat center center;
     height:100%;
     border-radius:50%;
-    
+
 }
 /*event time*/
 #times {
@@ -235,4 +235,16 @@ footer{
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+
+}
+
+#photos > img {
+    width:100%;
 }
